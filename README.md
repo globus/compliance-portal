@@ -9,7 +9,7 @@
 
 ----
 
-View the result at: [globus.github.io/template-data-portal](https://globus.github.io/template-data-portal).
+View the result at: [globus.compliance.org](https://compliance.globus.org/).
 
 While this repository is a working example of a data portal, it is also a template for [creating your own static research data portal](#creating-your-own-static-research-data-portal).
 
