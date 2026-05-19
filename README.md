@@ -15,4 +15,4 @@ This portal is build using [Globus's data portal template](https://github.com/gl
 
 ## Contact & Support
 
-For additional support or inquiries regarding compliance, please reach out to the Globus Compliance Team at [compliance@globus.org](mailto:compliance@globus.org).
+For additional support or inquiries regarding compliance, please reach out to the Globus Compliance Team at compliance[at]globus.org`.
