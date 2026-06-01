@@ -27,7 +27,7 @@
   },
 
   "branding": {
-    "logo": "assets/Globus_logo_BLUE_horizontal.png",
+    "logo": "/assets/logo-banner.png",
     "title": "Globus Logo",
     "subtitle": "Blue Horizontal"
  },

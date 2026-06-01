@@ -1,61 +1,48 @@
+import { SimpleGrid, Box, Heading, Text, Link } from "@chakra-ui/react"
+
 Welcome to the Globus Compliance Portal. The materials on this site provide an overview of Globus security practices, High Assurance capabilities, and links to resources to support institutional compliance, privacy, and data stewardship requirements.
 
----
+<SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={6} mt={8}>
 
-## Security Overview
+<Box borderWidth="1px" borderRadius="lg" p={5} shadow="sm">
+  <Heading as="h3" size="md" mb={2}>Security Overview</Heading>
+  <Text mb={3}>Globus incorporates strong authentication, encrypted data transfer, granular access controls, and audit logging to help institutions meet policy and regulatory requirements.</Text>
+  <Link href="https://docs.globus.org/guides/overviews/security/" isExternal color="blue.600">Security and Compliance Overview →</Link>
+</Box>
 
-Globus is designed to support secure, reliable research data management across institutions. The Globus platform incorporates strong authentication, encrypted data transfer, granular access controls, and audit logging. These capabilities help institutions meet internal policy requirements and external regulatory obligations.
+<Box borderWidth="1px" borderRadius="lg" p={5} shadow="sm">
+  <Heading as="h3" size="md" mb={2}>High Assurance</Heading>
+  <Text mb={3}>Enhanced security controls for sensitive or regulated data. Configure High Assurance collections to align with your compliance requirements.</Text>
+  <Link href="https://docs.globus.org/guides/overviews/high-assurance/" isExternal color="blue.600">High Assurance Collections →</Link>
+</Box>
 
-For additional information, see the Globus Security and Compliance Overview:
+<Box borderWidth="1px" borderRadius="lg" p={5} shadow="sm">
+  <Heading as="h3" size="md" mb={2}>Sensitive Data Handling</Heading>
+  <Text mb={3}>Secure workflows for data subject to HIPAA, CMMC, NIST frameworks, and other research data security requirements.</Text>
+  <Link href="/sensitive-data-handling" color="blue.600">Sensitive Data Handling →</Link>
+</Box>
 
-[Globus Security and Compliance Overview](https://docs.globus.org/guides/overviews/security/)
+<Box borderWidth="1px" borderRadius="lg" p={5} shadow="sm">
+  <Heading as="h3" size="md" mb={2}>Product Security</Heading>
+  <Text mb={3}>Secure software development practices, continuous monitoring, vulnerability management, and regular third-party assessments.</Text>
+  <Link href="https://docs.globus.org/guides/overviews/security/product-security/" isExternal color="blue.600">Product Security →</Link>
+</Box>
 
----
+<Box borderWidth="1px" borderRadius="lg" p={5} shadow="sm">
+  <Heading as="h3" size="md" mb={2}>Security FAQ</Heading>
+  <Text mb={3}>Common questions about authentication, data protection, and operational security practices.</Text>
+  <Link href="https://docs.globus.org/faq/security/" isExternal color="blue.600">Security FAQs →</Link>
+</Box>
 
-## High Assurance
+<Box borderWidth="1px" borderRadius="lg" p={5} shadow="sm">
+  <Heading as="h3" size="md" mb={2}>Policies & Legal</Heading>
+  <Text mb={3}>Review Globus Privacy Policy and Terms of Service.</Text>
+  <Link href="https://www.globus.org/legal/privacy" isExternal color="blue.600">Privacy Policy →</Link><br />
+  <Link href="https://www.globus.org/legal/terms" isExternal color="blue.600">Terms of Service →</Link>
+</Box>
 
-High Assurance collections provide enhanced security controls for sensitive or regulated data. Institutions can configure and manage High Assurance collections to align with their compliance requirements.
-
-Learn more about High Assurance:
-
-[High Assurance Collections for Protected Data](https://docs.globus.org/guides/overviews/high-assurance/)
-
----
-
-## Sensitive Data Handling
-
-Globus supports secure workflows for sensitive and regulated data, including data subject to institutional policies or external requirements such as HIPAA, CMMC, NIST frameworks, or other research data security requirements.
-
-For more information, see the Sensitive Data Handling page:
-
-[Sensitive Data Handling](./sensitive-data-handling)
-
----
-
-## Product Security
-
-Globus maintains a comprehensive security program that includes secure software development practices, continuous monitoring, vulnerability management, and regular third‑party assessments.
-
-See the Globus Product Security page for more details:
-
-[Globus Product Security](https://docs.globus.org/guides/overviews/security/product-security/)
-
----
-
-## Security FAQ
-
-Answers to common questions about Globus security, authentication, data protection, and operational practices are available in the Globus Security FAQ:
-
-[FAQs: Security](https://docs.globus.org/faq/security/)
+</SimpleGrid>
 
 ---
 
-## Policies and Legal Information
-
-- [**Privacy Policy**](https://www.globus.org/legal/privacy)
-- [**Terms of Service**](https://www.globus.org/legal/terms)
-
----
-
-For additional support or please contact the Globus Compliance Team at:  
-[compliance@globus.org](mailto:compliance@globus.org)
+For additional support contact the Globus Compliance Team at: compliance@globus.org
