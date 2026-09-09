@@ -10,7 +10,7 @@
     "attributes": {
       "content": {
         "title": "Globus Compliance Portal",
-        "image": "/assets/logo-banner-temp.png",
+        "logo": "/assets/header-bg-001.png",
         "privacy_policy": "https://www.globus.org/legal/privacy",
         "terms_of_service": "https://www.globus.org/legal/terms"
       },
